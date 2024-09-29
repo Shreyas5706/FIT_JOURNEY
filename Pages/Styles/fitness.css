@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    border: border-box;
+}
+
+.navbar{
+    height: 50px;
+    width: max;
+    color: white;
+    background-color:#000000;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.option{
+    width: 80%;
+    text-decoration: none;
+}
+.option p{
+display: inline;
+margin-left: 50px;
+}
+.username{
+display: flex;
+}
+
+.username p{
+margin-left: 3px;
+}
+
+.pera{
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.game{
+    height: 200px;
+    /* background-color: red; */
+    width: 500px;
+    margin-top: 30px;
+    border: 3px solid black;
+    /* align-items: center; */
+    margin-left:20px ;
+}
+
+.leval{
+    height: 50px;
+    /* background-color: aqua; */
+    font-size: 2rem;
+    padding-left: 30px;
+    padding-top: 5PX;
+}
+
+.sow{
+    height: 50px;
+    /* background-color: aqua; */
+    font-size: 2rem; 
+    padding-left: 30px; 
+    padding-top: 5PX;
+}
+.complet{
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.button{
+    padding-left: 430px;
+    padding-top: 65px;
+    /* margin-left: 430px;
+    margin-top: 65px; */
+}

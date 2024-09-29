@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    border: border-box;
+}
+
+
+.navbar{
+    height: 50px;
+    width: max;
+    color: wheat;
+    background-color:black;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.option{
+     width: 80%;
+     /* height: 50px; */
+    text-decoration: none;
+
+}
+.option p{
+    display: inline;
+    margin-left: 50px;
+    height: max-content;
+}
+.username{
+    display: flex;
+}
+
+.username p{
+    margin-left: 3px;
+}
+
+.mide{
+    height: max-content;
+    width: max;
+    background-color: #e5e5e5;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-size:cover ; */
+    font-size: 27px;
+    /* margin-top: 10px; */
+    padding-top: 20px;
+    background-image: url(Images/webback.jpg);
+    background-size: cover;
+    background-position: top;
+    margin-top: 2px;
+}
+
+.backimg{
+    height: 400px;
+    width: max;
+    background-image: url(Images/webbbg.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 2px; 
+    color: #e5e5e5;
+    /* text-align: center; */
+    /* justify-items:center ; */
+    /* padding-top: 200px; */
+    /* background-position: bottom; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+/* .backimg {display:inline-block;} */
+
+.text{
+    width: 4ch;
+    font-family: monospace;
+    overflow: hidden;
+    /* border-right: solid 1px; */
+  
+    animation: typing 4s steps(30) infinite;
+  }
+  
+  @keyframes typing {
+      from{width: 2vh;}
+  }
+  
+
+/* .sport{
+    height: 300px;
+    width: 300px;
+    /* background-color: #000000; */
+    /* border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("sport1.png");
+    background-size:cover;
+    box-shadow: 0 0 10 rgba(0,0,0,.2); */
+/* } */ */
+
+.sport p{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.sport:hover{
+
+    border: 5px solid black;
+}
+
+.fitness{
+    height:300px;
+    width: 300px;
+    /* background-color:#e5e5e5; */
+    /* margin-top:10px ; */
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("Images/sport2.png");
+    background-size: cover;
+    box-shadow: 0 0 10 rgba(0,0,0,.2);
+    backdrop-filter:blur(20px);
+    box-shadow: 0 0 10 rgba(0,0,0,.2);
+    margin-bottom: 20px;
+}
+
+.fitness p{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.fitness:hover{
+        border: 3px solid white;
+}
+
+.hello{
+    height: 60px;
+    width: 50px;
+}
+
+
+.hello:hover{
+    background-color:rgb(199, 228, 234);
+}
+
+.info{
+    height: 200px;
+    width: max;
+    background-color:#6e6464;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

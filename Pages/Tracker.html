@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Tracker Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Health Tracker Dashboard</h1>
+    
+    <div class="dashboard">
+        <div id="steps" class="widget">
+            <h2>Average Steps Per day </h2>
+            <span id="steps-count">0</span>
+        </div>
+        <div id="calories" class="widget">
+            <h2>Calories Burned</h2>
+            <span id="calories-count">0</span>
+        </div>
+        <div id="sleep" class="widget">
+            <h2>Sleep Duration</h2>
+            <span id="sleep-hours">0 hours</span>
+        </div>
+        <div id="goals" class="widget">
+            <h2>Goal Progress</h2>
+            <span id="goal-progress">0%</span>
+        </div>
+    </div>
+    <div class="container">
+    <canvas id="stepsChart" ></canvas>
+    <select class='month-select' id="month">
+        <option value="Jan">January</option>
+        <option value="Feb">February</option>
+        <option value="Mar">March</option>
+        <option value="Apr">April</option>
+        <option value="May">May</option>
+        <option value="Jun">June</option>
+        <option value="Jul">July</option>
+        <option value="Aug">August</option>
+        <option value="Sep">September</option>
+    </select>
+</div>
+    <!-- Include Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

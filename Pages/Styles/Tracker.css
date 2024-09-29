@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    /* padding: 20px; */
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+}
+
+h1 {
+    text-align: center;
+    /* margin-bottom: 20px; */
+    position: sticky;
+    background-color: aqua;
+}
+
+
+.widget {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.widget h2 {
+    margin: 0 0 10px;
+}
+
+.month-select {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #0f0e0e;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.month option {
+    background-color: #333;
+}
+
+.month-select:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.month-select:hover {
+    cursor: pointer;
+}
+
+canvas {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    width: 60vw !important;
+    height: 35vh !important;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+select slot {
+    height: max-content;
+}
+
+.container {
+    display: flex;
+    width: 99vw;
+
+}
+
+.dropdown {
+    width: 15%;
+    margin: 2vw;
+
+}
+
+.desc {
+    font-size: 2vw;
+    /* background-color: rgb(129, 162, 174); */
+}
+
+.dashboard {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 80%;
+}
