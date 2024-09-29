@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goals Page</title>
+    <link rel="stylesheet" href="Styles/goals.css">
+</head>
+<body>
+    <header>
+        <h1>Goals</h1>
+    </header>
+    <main>
+        <section id="goal-selection">
+            <h2>Select a Month:</h2>
+            <select id="month">
+                <option value="Jan">January</option>
+                <option value="Feb">February</option>
+                <option value="Mar">March</option>
+                <option value="Apr">April</option>
+                <option value="May">May</option>
+                <option value="Jun">June</option>
+                <option value="Jul">July</option>
+                <option value="Aug">August</option>
+                <option value="Sep">September</option>
+            </select>
+        </section>
+        <section id="goal-stats">
+            <h2>Goal Progress:</h2>
+            <p id="goal-progress">0%</p>
+            <p id="steps-count">Steps: 0</p>
+            <p id="calories-count">Calories: 0</p>
+            <p id="sleep-hours">Sleep: 0 hours</p>
+        </section>
+        <section id="chart-section">
+            <canvas id="stepsChart"></canvas>
+        </section>
+    </main>
+    <script src="Scirpts/goals.js"></script>
+</body>
+</html>
